@@ -1,11 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
+
+html {
+	box-sizing: border-box;
+}
 body {
 	background-color: whitesmoke;
 	font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
-    text-align: center;
+    	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	word-spacing: 10px;
@@ -25,7 +29,7 @@ h1 {
 
 .bg-white {
 	background-color: #FFF;
-	margin: 10px 0;
+	margin: 10px;
 	padding: 5px;
 }
 .logo {
@@ -99,4 +103,13 @@ h1 {
 	height: 80px;
 	width: auto;
 }
+}
+#data{
+	background-color: white;
+	font-size: 20px;
+}
+
+#d1{
+	background-color: white;
+	font-size:10px;
 }
